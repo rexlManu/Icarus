@@ -22,7 +22,7 @@ public class Utils {
         return instance;
     }
 
-    public void cosoleMessage(TYPE type, Object message) {
+    public void consoleMessage(TYPE type, Object message) {
         if (type.equals(TYPE.MESSAGE)) {
             System.out.println(API.getInstance().consolePrefix+message);
         } else if(type.equals(TYPE.BALKEN)) {

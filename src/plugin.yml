@@ -1,0 +1,4 @@
+name: Icarus
+version: 0.1-SNAPSHOT
+author: SquareCode
+main: net.icarus.icarus.Icarus
